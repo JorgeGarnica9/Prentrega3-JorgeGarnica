@@ -200,6 +200,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding-bottom: 10vh;
 }
 .media .media-content {
   position: relative;
@@ -209,7 +210,7 @@
   height: 500px;
   min-width: 250px;
   background-color: #725AC1;
-  padding: 5px;
+  padding: 10px;
   margin: 10px;
   overflow: hidden;
   border-radius: 50px 0;
@@ -222,11 +223,18 @@
 .media .media-content img {
   border-top-left-radius: 50px;
 }
-.media .box {
-  transition: 0.4s;
+.media .media-content h2 {
+  font-size: 1.5rem;
 }
-.media .box :hover {
-  filter: drop-shadow(1px 1px 2px #242038);
+
+.box {
+  padding: 1rem;
+  margin: 0%;
+  transition: 0.4s;
+  width: 100%;
+}
+.box:hover {
+  background-color: #000;
 }
 
 /*# sourceMappingURL=style.css.map */
