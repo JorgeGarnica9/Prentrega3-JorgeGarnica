@@ -24,7 +24,7 @@
 
 .tipo {
   width: 100%;
-  background-color: #725ac1;
+  background-color: #725AC1;
   min-width: 250px;
   padding: 5px;
   margin: 10px;
@@ -102,24 +102,24 @@
   flex-wrap: wrap;
   gap: 10px;
 }
-@media (max-width: 768px) {
-  .hero .hero-content {
-    width: 100%;
-    justify-content: space-evenly;
-  }
-}
 .hero .hero-content a {
   padding: 10px;
-  background-color: #725ac1;
+  background-color: #725AC1;
   color: aliceblue;
   border-radius: 5px;
   text-decoration: none;
   width: 150px;
   text-align: center;
 }
+@media (max-width: 768px) {
+  .hero .hero-content a {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}
 
 .boton {
-  background-color: rgba(36, 32, 56, 0.768627451);
+  background-color: #242038;
   color: aliceblue;
   padding: 10px 30px;
   border-bottom-right-radius: 50px;
@@ -127,7 +127,7 @@
   transition: 0.4s;
 }
 .boton:hover {
-  background-color: rgba(36, 32, 56, 0.4941176471);
+  background-color: #242038;
   font-weight: 700;
   font-size: 1rem;
 }

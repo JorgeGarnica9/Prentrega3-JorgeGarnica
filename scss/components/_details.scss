@@ -1,0 +1,23 @@
+.bg-headfoot{
+    background-color: $main-color;
+}
+
+.bg-offcanvas{
+    background-color: $secondary-color;
+}
+
+.bg-main{
+    background-color: $terciary-color;
+}
+
+.borde{
+    border: 2px solid white;
+}
+
+.sombra{
+    filter: drop-shadow( 5px 5px 10px #000 );
+}
+
+.hide{
+    overflow: hidden;
+}
